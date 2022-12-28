@@ -1,0 +1,76 @@
+<!--
+<ul> etiketi sırasız liste oluşturur ve içinde <li> eleman etiketi olabilir
+    <li> eleman etiketinin içinde <ul> etiketi olabilir .
+    
+<ol> etiketi sıralı liste oluşturur ve içinde <li> eleman etiketi olabilir
+    <li> eleman etiketinin içinde <ol> etiketi olabilir .
+        olnin içinde type='a' eklersen a,b,c diye sıralar.
+
+ul nin başındaki nokta veya sembolü değiştirmek istiyorsak
+        :<ul style='list-style-type: anysymbol'>
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul>
+      <li>Item 1</li>
+      <li>
+        Item 2
+        <ul style="list-style-type: georgian">
+          <li>Subitem 1</li>
+          <li>Subitem 2</li>
+        </ul>
+      </li>
+      <li>Item 3</li>
+    </ul>
+
+    <ol>
+      <li>Item 1</li>
+      <li>
+        Item 2
+        <ol>
+          <li>Subitem 1</li>
+          <li>Subitem 2</li>
+        </ol>
+      </li>
+      <li>Item 3</li>
+    </ol>
+
+    <h2>Admissions FAQs</h2>
+    <dl>
+      <dt>What are the admission requirements?</dt>
+      <dd>
+        To be considered for admission to our school, applicants must have a
+        high school diploma or equivalent, and must meet certain GPA and test
+        score requirements. Please see our website for more information on
+        specific requirements.
+      </dd>
+      <dt>Can I apply online?</dt>
+      <dd>
+        Yes, you can submit your application online through our website. Simply
+        follow the instructions on the admissions page to complete the
+        application process.
+      </dd>
+      <dt>Is financial aid available?</dt>
+      <dd>
+        Yes, financial aid is available to qualified students. Please visit our
+        financial aid page for more information on how to apply for financial
+        aid and the types of aid available.
+      </dd>
+      <dt>HTML</dt>
+      <dd>HTML NEDİR?</dd>
+      <dd>HTML ZAFİYETİ?</dd>
+      <dt>CSS</dt>
+      <dd>INLINE CSS</dd>
+      <dd>externalcss</dd>
+      <dd>internal css</dd>
+    </dl>
+  </body>
+</html>

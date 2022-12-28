@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- burada topladığımız bilgileri server a gönderecereğiz
+        register.php / server kodu ile-->
+    <form action="register.php">
+      <!-- BUNLAR BİR INLINE ELEMAN -->
+      <div>
+        <label for="1">Adınız:</label>
+        <input type="text" name="Ad" id="1" /><br /><br />
+      </div>
+      <div>
+        <label for="2">Soyadınız:</label>
+        <input type="text" name="Soyad" id="2" /><br />
+      </div>
+      <div>
+        <label for="aciklama">Aciklamaniz:</label>
+        <textarea name="aciklama" id="aciklama" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <p>En sevdiğiniz programlama dili:</p>
+        <input type="radio" name="Python" id="Python" />
+        <label for="Python">Python</label>
+        <input type="checkbox" name="C#" id="C#" />
+        <label for="C#">C#</label>
+        <input type="radio" name="Ruby" id="Ruby" />
+        <label for="Ruby">Ruby</label>
+      </div>
+      <!-- Select kutusu-->
+      <div>
+        <label for="date">Tarihi girin:</label>
+        <input type="date" name="date" id="date" />
+      </div>
+      <div>
+        <label for="cities">Şehir</label>
+        <select name="cities" id="cities">
+          <option value="41">Kocaeli</option>
+          <option value="34">İstanbul</option>
+        </select>
+      </div>
+      <div>
+        <label for="mail">Mail adresinizi giriniz:</label>
+        <input type="email" name="mail" id="mail" />
+      </div>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!-- DIV AND SPAN KONUSU
+
+<div> etiketi, bir bölüm oluşturmak için kullanılır. 
+Bu etiket genellikle bir blok element olarak kullanılır ve içerisinde 
+diğer elementleri sıralamak için kullanılır. 
+Örneğin, bir sayfada bir kısım içeriği kapsayacak 
+bir bölüm oluşturmak için div etiketini kullanabilirsiniz.
+
+<span> etiketi ise, bir paragraf içinde bir bölüm oluşturmak için kullanılır. 
+Bu etiket genellikle bir satır içi element olarak kullanılır ve 
+içerisinde yer alan elementlerin bir paragraf içinde bir arada görünmesini sağlar. 
+Örneğin, bir paragraf içinde bir kelimeyi vurgulamak için span etiketini kullanabilirsiniz.
+
+Semantic Elements in HTML
+
+<article>
+  <h1>Haber Başlığı</h1>
+  <p>Haberin içeriği burada yer alır.</p>
+</article>
+
+
+
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="menu">
+      <ul>
+        <li><a href="#">Ana Sayfa</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">İletişim</a></li>
+      </ul>
+    </div>
+    <p>Merhaba, bugün hava çok <span style="color: red">güzel</span>!</p>
+
+    <div id="form">
+      <form action="#">
+        <label for="ad">Adınız:</label><br />
+        <input type="text" id="ad" name="ad" /><br />
+        <label for="soyad">Soyadınız:</label><br />
+        <input type="text" id="soyad" name="soyad" /><br />
+        <input type="submit" value="Gönder" />
+      </form>
+    </div>
+  </body>
+</html>
